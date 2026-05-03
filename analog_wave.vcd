@@ -1,0 +1,62 @@
+$date
+	Sat May 02 23:30:42 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_analog_crossbar $end
+$var wire 8 ! i_out_1 [7:0] $end
+$var wire 8 " i_out_0 [7:0] $end
+$var reg 8 # v_in_0 [7:0] $end
+$var reg 8 $ v_in_1 [7:0] $end
+$scope module my_matrix $end
+$var wire 8 % v_in_0 [7:0] $end
+$var wire 8 & v_in_1 [7:0] $end
+$var parameter 32 ' WIDTH $end
+$var reg 8 ( i_out_0 [7:0] $end
+$var reg 8 ) i_out_1 [7:0] $end
+$var integer 32 * G_00 [31:0] $end
+$var integer 32 + G_01 [31:0] $end
+$var integer 32 , G_10 [31:0] $end
+$var integer 32 - G_11 [31:0] $end
+$var integer 32 . raw_i_0 [31:0] $end
+$var integer 32 / raw_i_1 [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 '
+$end
+#0
+$dumpvars
+b11001 /
+b11001 .
+b11 -
+b1 ,
+b1 +
+b10 *
+b11000 )
+b11000 (
+b101 &
+b1010 %
+b101 $
+b1010 #
+b11000 "
+b11000 !
+$end
+#20
+b1000000 !
+b1000000 )
+b110110 "
+b110110 (
+b1000001 /
+b110111 .
+b1111 $
+b1111 &
+b10100 #
+b10100 %
+#40

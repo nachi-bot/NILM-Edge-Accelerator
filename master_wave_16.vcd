@@ -1,0 +1,787 @@
+$date
+	Mon May 04 00:30:42 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_signal_gpu_16 $end
+$var wire 1 ! req_out $end
+$var wire 128 " ch_out_bus [127:0] $end
+$var wire 1 # ack_out $end
+$var reg 1 $ ack_in $end
+$var reg 128 % ch_in_bus [127:0] $end
+$var reg 1 & req_in $end
+$var reg 1 ' rst_n $end
+$scope module my_asic $end
+$var wire 1 $ ack_in $end
+$var wire 128 ( ch_in_bus [127:0] $end
+$var wire 1 & req_in $end
+$var wire 1 ' rst_n $end
+$var wire 1 ) router_req $end
+$var wire 1 * router_ack $end
+$var wire 128 + routed_signals [127:0] $end
+$var wire 1 ! req_out $end
+$var wire 128 , math_out_bus [127:0] $end
+$var wire 128 - ch_out_bus [127:0] $end
+$var wire 1 # ack_out $end
+$scope module input_router $end
+$var wire 1 # ack_out $end
+$var wire 128 . data_in [127:0] $end
+$var wire 1 & req_in $end
+$var wire 1 ) req_out $end
+$var wire 1 ' rst_n $end
+$var wire 1 / enable $end
+$var wire 1 * ack_in $end
+$var parameter 32 0 WIDTH $end
+$var reg 128 1 data_out [127:0] $end
+$scope module controller $end
+$var wire 1 & a $end
+$var wire 1 2 b $end
+$var wire 1 ' rst_n $end
+$var reg 1 / y $end
+$upscope $end
+$upscope $end
+$scope module math_core $end
+$var wire 8 3 v_in_0 [7:0] $end
+$var wire 8 4 v_in_1 [7:0] $end
+$var wire 8 5 v_in_10 [7:0] $end
+$var wire 8 6 v_in_11 [7:0] $end
+$var wire 8 7 v_in_12 [7:0] $end
+$var wire 8 8 v_in_13 [7:0] $end
+$var wire 8 9 v_in_14 [7:0] $end
+$var wire 8 : v_in_15 [7:0] $end
+$var wire 8 ; v_in_2 [7:0] $end
+$var wire 8 < v_in_3 [7:0] $end
+$var wire 8 = v_in_4 [7:0] $end
+$var wire 8 > v_in_5 [7:0] $end
+$var wire 8 ? v_in_6 [7:0] $end
+$var wire 8 @ v_in_7 [7:0] $end
+$var wire 8 A v_in_8 [7:0] $end
+$var wire 8 B v_in_9 [7:0] $end
+$var parameter 32 C WIDTH $end
+$var reg 8 D i_out_0 [7:0] $end
+$var reg 8 E i_out_1 [7:0] $end
+$var reg 8 F i_out_10 [7:0] $end
+$var reg 8 G i_out_11 [7:0] $end
+$var reg 8 H i_out_12 [7:0] $end
+$var reg 8 I i_out_13 [7:0] $end
+$var reg 8 J i_out_14 [7:0] $end
+$var reg 8 K i_out_15 [7:0] $end
+$var reg 8 L i_out_2 [7:0] $end
+$var reg 8 M i_out_3 [7:0] $end
+$var reg 8 N i_out_4 [7:0] $end
+$var reg 8 O i_out_5 [7:0] $end
+$var reg 8 P i_out_6 [7:0] $end
+$var reg 8 Q i_out_7 [7:0] $end
+$var reg 8 R i_out_8 [7:0] $end
+$var reg 8 S i_out_9 [7:0] $end
+$var integer 32 T G_0_0 [31:0] $end
+$var integer 32 U G_0_1 [31:0] $end
+$var integer 32 V G_0_10 [31:0] $end
+$var integer 32 W G_0_11 [31:0] $end
+$var integer 32 X G_0_12 [31:0] $end
+$var integer 32 Y G_0_13 [31:0] $end
+$var integer 32 Z G_0_14 [31:0] $end
+$var integer 32 [ G_0_15 [31:0] $end
+$var integer 32 \ G_0_2 [31:0] $end
+$var integer 32 ] G_0_3 [31:0] $end
+$var integer 32 ^ G_0_4 [31:0] $end
+$var integer 32 _ G_0_5 [31:0] $end
+$var integer 32 ` G_0_6 [31:0] $end
+$var integer 32 a G_0_7 [31:0] $end
+$var integer 32 b G_0_8 [31:0] $end
+$var integer 32 c G_0_9 [31:0] $end
+$var integer 32 d G_10_0 [31:0] $end
+$var integer 32 e G_10_1 [31:0] $end
+$var integer 32 f G_10_10 [31:0] $end
+$var integer 32 g G_10_11 [31:0] $end
+$var integer 32 h G_10_12 [31:0] $end
+$var integer 32 i G_10_13 [31:0] $end
+$var integer 32 j G_10_14 [31:0] $end
+$var integer 32 k G_10_15 [31:0] $end
+$var integer 32 l G_10_2 [31:0] $end
+$var integer 32 m G_10_3 [31:0] $end
+$var integer 32 n G_10_4 [31:0] $end
+$var integer 32 o G_10_5 [31:0] $end
+$var integer 32 p G_10_6 [31:0] $end
+$var integer 32 q G_10_7 [31:0] $end
+$var integer 32 r G_10_8 [31:0] $end
+$var integer 32 s G_10_9 [31:0] $end
+$var integer 32 t G_11_0 [31:0] $end
+$var integer 32 u G_11_1 [31:0] $end
+$var integer 32 v G_11_10 [31:0] $end
+$var integer 32 w G_11_11 [31:0] $end
+$var integer 32 x G_11_12 [31:0] $end
+$var integer 32 y G_11_13 [31:0] $end
+$var integer 32 z G_11_14 [31:0] $end
+$var integer 32 { G_11_15 [31:0] $end
+$var integer 32 | G_11_2 [31:0] $end
+$var integer 32 } G_11_3 [31:0] $end
+$var integer 32 ~ G_11_4 [31:0] $end
+$var integer 32 !" G_11_5 [31:0] $end
+$var integer 32 "" G_11_6 [31:0] $end
+$var integer 32 #" G_11_7 [31:0] $end
+$var integer 32 $" G_11_8 [31:0] $end
+$var integer 32 %" G_11_9 [31:0] $end
+$var integer 32 &" G_12_0 [31:0] $end
+$var integer 32 '" G_12_1 [31:0] $end
+$var integer 32 (" G_12_10 [31:0] $end
+$var integer 32 )" G_12_11 [31:0] $end
+$var integer 32 *" G_12_12 [31:0] $end
+$var integer 32 +" G_12_13 [31:0] $end
+$var integer 32 ," G_12_14 [31:0] $end
+$var integer 32 -" G_12_15 [31:0] $end
+$var integer 32 ." G_12_2 [31:0] $end
+$var integer 32 /" G_12_3 [31:0] $end
+$var integer 32 0" G_12_4 [31:0] $end
+$var integer 32 1" G_12_5 [31:0] $end
+$var integer 32 2" G_12_6 [31:0] $end
+$var integer 32 3" G_12_7 [31:0] $end
+$var integer 32 4" G_12_8 [31:0] $end
+$var integer 32 5" G_12_9 [31:0] $end
+$var integer 32 6" G_13_0 [31:0] $end
+$var integer 32 7" G_13_1 [31:0] $end
+$var integer 32 8" G_13_10 [31:0] $end
+$var integer 32 9" G_13_11 [31:0] $end
+$var integer 32 :" G_13_12 [31:0] $end
+$var integer 32 ;" G_13_13 [31:0] $end
+$var integer 32 <" G_13_14 [31:0] $end
+$var integer 32 =" G_13_15 [31:0] $end
+$var integer 32 >" G_13_2 [31:0] $end
+$var integer 32 ?" G_13_3 [31:0] $end
+$var integer 32 @" G_13_4 [31:0] $end
+$var integer 32 A" G_13_5 [31:0] $end
+$var integer 32 B" G_13_6 [31:0] $end
+$var integer 32 C" G_13_7 [31:0] $end
+$var integer 32 D" G_13_8 [31:0] $end
+$var integer 32 E" G_13_9 [31:0] $end
+$var integer 32 F" G_14_0 [31:0] $end
+$var integer 32 G" G_14_1 [31:0] $end
+$var integer 32 H" G_14_10 [31:0] $end
+$var integer 32 I" G_14_11 [31:0] $end
+$var integer 32 J" G_14_12 [31:0] $end
+$var integer 32 K" G_14_13 [31:0] $end
+$var integer 32 L" G_14_14 [31:0] $end
+$var integer 32 M" G_14_15 [31:0] $end
+$var integer 32 N" G_14_2 [31:0] $end
+$var integer 32 O" G_14_3 [31:0] $end
+$var integer 32 P" G_14_4 [31:0] $end
+$var integer 32 Q" G_14_5 [31:0] $end
+$var integer 32 R" G_14_6 [31:0] $end
+$var integer 32 S" G_14_7 [31:0] $end
+$var integer 32 T" G_14_8 [31:0] $end
+$var integer 32 U" G_14_9 [31:0] $end
+$var integer 32 V" G_15_0 [31:0] $end
+$var integer 32 W" G_15_1 [31:0] $end
+$var integer 32 X" G_15_10 [31:0] $end
+$var integer 32 Y" G_15_11 [31:0] $end
+$var integer 32 Z" G_15_12 [31:0] $end
+$var integer 32 [" G_15_13 [31:0] $end
+$var integer 32 \" G_15_14 [31:0] $end
+$var integer 32 ]" G_15_15 [31:0] $end
+$var integer 32 ^" G_15_2 [31:0] $end
+$var integer 32 _" G_15_3 [31:0] $end
+$var integer 32 `" G_15_4 [31:0] $end
+$var integer 32 a" G_15_5 [31:0] $end
+$var integer 32 b" G_15_6 [31:0] $end
+$var integer 32 c" G_15_7 [31:0] $end
+$var integer 32 d" G_15_8 [31:0] $end
+$var integer 32 e" G_15_9 [31:0] $end
+$var integer 32 f" G_1_0 [31:0] $end
+$var integer 32 g" G_1_1 [31:0] $end
+$var integer 32 h" G_1_10 [31:0] $end
+$var integer 32 i" G_1_11 [31:0] $end
+$var integer 32 j" G_1_12 [31:0] $end
+$var integer 32 k" G_1_13 [31:0] $end
+$var integer 32 l" G_1_14 [31:0] $end
+$var integer 32 m" G_1_15 [31:0] $end
+$var integer 32 n" G_1_2 [31:0] $end
+$var integer 32 o" G_1_3 [31:0] $end
+$var integer 32 p" G_1_4 [31:0] $end
+$var integer 32 q" G_1_5 [31:0] $end
+$var integer 32 r" G_1_6 [31:0] $end
+$var integer 32 s" G_1_7 [31:0] $end
+$var integer 32 t" G_1_8 [31:0] $end
+$var integer 32 u" G_1_9 [31:0] $end
+$var integer 32 v" G_2_0 [31:0] $end
+$var integer 32 w" G_2_1 [31:0] $end
+$var integer 32 x" G_2_10 [31:0] $end
+$var integer 32 y" G_2_11 [31:0] $end
+$var integer 32 z" G_2_12 [31:0] $end
+$var integer 32 {" G_2_13 [31:0] $end
+$var integer 32 |" G_2_14 [31:0] $end
+$var integer 32 }" G_2_15 [31:0] $end
+$var integer 32 ~" G_2_2 [31:0] $end
+$var integer 32 !# G_2_3 [31:0] $end
+$var integer 32 "# G_2_4 [31:0] $end
+$var integer 32 ## G_2_5 [31:0] $end
+$var integer 32 $# G_2_6 [31:0] $end
+$var integer 32 %# G_2_7 [31:0] $end
+$var integer 32 &# G_2_8 [31:0] $end
+$var integer 32 '# G_2_9 [31:0] $end
+$var integer 32 (# G_3_0 [31:0] $end
+$var integer 32 )# G_3_1 [31:0] $end
+$var integer 32 *# G_3_10 [31:0] $end
+$var integer 32 +# G_3_11 [31:0] $end
+$var integer 32 ,# G_3_12 [31:0] $end
+$var integer 32 -# G_3_13 [31:0] $end
+$var integer 32 .# G_3_14 [31:0] $end
+$var integer 32 /# G_3_15 [31:0] $end
+$var integer 32 0# G_3_2 [31:0] $end
+$var integer 32 1# G_3_3 [31:0] $end
+$var integer 32 2# G_3_4 [31:0] $end
+$var integer 32 3# G_3_5 [31:0] $end
+$var integer 32 4# G_3_6 [31:0] $end
+$var integer 32 5# G_3_7 [31:0] $end
+$var integer 32 6# G_3_8 [31:0] $end
+$var integer 32 7# G_3_9 [31:0] $end
+$var integer 32 8# G_4_0 [31:0] $end
+$var integer 32 9# G_4_1 [31:0] $end
+$var integer 32 :# G_4_10 [31:0] $end
+$var integer 32 ;# G_4_11 [31:0] $end
+$var integer 32 <# G_4_12 [31:0] $end
+$var integer 32 =# G_4_13 [31:0] $end
+$var integer 32 ># G_4_14 [31:0] $end
+$var integer 32 ?# G_4_15 [31:0] $end
+$var integer 32 @# G_4_2 [31:0] $end
+$var integer 32 A# G_4_3 [31:0] $end
+$var integer 32 B# G_4_4 [31:0] $end
+$var integer 32 C# G_4_5 [31:0] $end
+$var integer 32 D# G_4_6 [31:0] $end
+$var integer 32 E# G_4_7 [31:0] $end
+$var integer 32 F# G_4_8 [31:0] $end
+$var integer 32 G# G_4_9 [31:0] $end
+$var integer 32 H# G_5_0 [31:0] $end
+$var integer 32 I# G_5_1 [31:0] $end
+$var integer 32 J# G_5_10 [31:0] $end
+$var integer 32 K# G_5_11 [31:0] $end
+$var integer 32 L# G_5_12 [31:0] $end
+$var integer 32 M# G_5_13 [31:0] $end
+$var integer 32 N# G_5_14 [31:0] $end
+$var integer 32 O# G_5_15 [31:0] $end
+$var integer 32 P# G_5_2 [31:0] $end
+$var integer 32 Q# G_5_3 [31:0] $end
+$var integer 32 R# G_5_4 [31:0] $end
+$var integer 32 S# G_5_5 [31:0] $end
+$var integer 32 T# G_5_6 [31:0] $end
+$var integer 32 U# G_5_7 [31:0] $end
+$var integer 32 V# G_5_8 [31:0] $end
+$var integer 32 W# G_5_9 [31:0] $end
+$var integer 32 X# G_6_0 [31:0] $end
+$var integer 32 Y# G_6_1 [31:0] $end
+$var integer 32 Z# G_6_10 [31:0] $end
+$var integer 32 [# G_6_11 [31:0] $end
+$var integer 32 \# G_6_12 [31:0] $end
+$var integer 32 ]# G_6_13 [31:0] $end
+$var integer 32 ^# G_6_14 [31:0] $end
+$var integer 32 _# G_6_15 [31:0] $end
+$var integer 32 `# G_6_2 [31:0] $end
+$var integer 32 a# G_6_3 [31:0] $end
+$var integer 32 b# G_6_4 [31:0] $end
+$var integer 32 c# G_6_5 [31:0] $end
+$var integer 32 d# G_6_6 [31:0] $end
+$var integer 32 e# G_6_7 [31:0] $end
+$var integer 32 f# G_6_8 [31:0] $end
+$var integer 32 g# G_6_9 [31:0] $end
+$var integer 32 h# G_7_0 [31:0] $end
+$var integer 32 i# G_7_1 [31:0] $end
+$var integer 32 j# G_7_10 [31:0] $end
+$var integer 32 k# G_7_11 [31:0] $end
+$var integer 32 l# G_7_12 [31:0] $end
+$var integer 32 m# G_7_13 [31:0] $end
+$var integer 32 n# G_7_14 [31:0] $end
+$var integer 32 o# G_7_15 [31:0] $end
+$var integer 32 p# G_7_2 [31:0] $end
+$var integer 32 q# G_7_3 [31:0] $end
+$var integer 32 r# G_7_4 [31:0] $end
+$var integer 32 s# G_7_5 [31:0] $end
+$var integer 32 t# G_7_6 [31:0] $end
+$var integer 32 u# G_7_7 [31:0] $end
+$var integer 32 v# G_7_8 [31:0] $end
+$var integer 32 w# G_7_9 [31:0] $end
+$var integer 32 x# G_8_0 [31:0] $end
+$var integer 32 y# G_8_1 [31:0] $end
+$var integer 32 z# G_8_10 [31:0] $end
+$var integer 32 {# G_8_11 [31:0] $end
+$var integer 32 |# G_8_12 [31:0] $end
+$var integer 32 }# G_8_13 [31:0] $end
+$var integer 32 ~# G_8_14 [31:0] $end
+$var integer 32 !$ G_8_15 [31:0] $end
+$var integer 32 "$ G_8_2 [31:0] $end
+$var integer 32 #$ G_8_3 [31:0] $end
+$var integer 32 $$ G_8_4 [31:0] $end
+$var integer 32 %$ G_8_5 [31:0] $end
+$var integer 32 &$ G_8_6 [31:0] $end
+$var integer 32 '$ G_8_7 [31:0] $end
+$var integer 32 ($ G_8_8 [31:0] $end
+$var integer 32 )$ G_8_9 [31:0] $end
+$var integer 32 *$ G_9_0 [31:0] $end
+$var integer 32 +$ G_9_1 [31:0] $end
+$var integer 32 ,$ G_9_10 [31:0] $end
+$var integer 32 -$ G_9_11 [31:0] $end
+$var integer 32 .$ G_9_12 [31:0] $end
+$var integer 32 /$ G_9_13 [31:0] $end
+$var integer 32 0$ G_9_14 [31:0] $end
+$var integer 32 1$ G_9_15 [31:0] $end
+$var integer 32 2$ G_9_2 [31:0] $end
+$var integer 32 3$ G_9_3 [31:0] $end
+$var integer 32 4$ G_9_4 [31:0] $end
+$var integer 32 5$ G_9_5 [31:0] $end
+$var integer 32 6$ G_9_6 [31:0] $end
+$var integer 32 7$ G_9_7 [31:0] $end
+$var integer 32 8$ G_9_8 [31:0] $end
+$var integer 32 9$ G_9_9 [31:0] $end
+$var integer 32 :$ raw_i_0 [31:0] $end
+$var integer 32 ;$ raw_i_1 [31:0] $end
+$var integer 32 <$ raw_i_10 [31:0] $end
+$var integer 32 =$ raw_i_11 [31:0] $end
+$var integer 32 >$ raw_i_12 [31:0] $end
+$var integer 32 ?$ raw_i_13 [31:0] $end
+$var integer 32 @$ raw_i_14 [31:0] $end
+$var integer 32 A$ raw_i_15 [31:0] $end
+$var integer 32 B$ raw_i_2 [31:0] $end
+$var integer 32 C$ raw_i_3 [31:0] $end
+$var integer 32 D$ raw_i_4 [31:0] $end
+$var integer 32 E$ raw_i_5 [31:0] $end
+$var integer 32 F$ raw_i_6 [31:0] $end
+$var integer 32 G$ raw_i_7 [31:0] $end
+$var integer 32 H$ raw_i_8 [31:0] $end
+$var integer 32 I$ raw_i_9 [31:0] $end
+$upscope $end
+$scope module output_latch $end
+$var wire 1 $ ack_in $end
+$var wire 1 * ack_out $end
+$var wire 128 J$ data_in [127:0] $end
+$var wire 1 ) req_in $end
+$var wire 1 ! req_out $end
+$var wire 1 ' rst_n $end
+$var wire 1 K$ enable $end
+$var parameter 32 L$ WIDTH $end
+$var reg 128 M$ data_out [127:0] $end
+$scope module controller $end
+$var wire 1 ) a $end
+$var wire 1 N$ b $end
+$var wire 1 ' rst_n $end
+$var reg 1 K$ y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10000000 L$
+b1000 C
+b10000000 0
+$end
+#0
+$dumpvars
+1N$
+b0 M$
+0K$
+b0 J$
+b0 I$
+b0 H$
+b0 G$
+b0 F$
+b0 E$
+b0 D$
+b0 C$
+b0 B$
+b0 A$
+b0 @$
+b0 ?$
+b0 >$
+b0 =$
+b0 <$
+b0 ;$
+b0 :$
+b1 9$
+b1 8$
+b1 7$
+b1 6$
+b1 5$
+b1 4$
+b1 3$
+b1 2$
+b1 1$
+b1 0$
+b1 /$
+b1 .$
+b1 -$
+b1 ,$
+b1 +$
+b1 *$
+b1 )$
+b1 ($
+b1 '$
+b1 &$
+b1 %$
+b1 $$
+b1 #$
+b1 "$
+b1 !$
+b1 ~#
+b1 }#
+b1 |#
+b1 {#
+b1 z#
+b1 y#
+b1 x#
+b1 w#
+b1 v#
+b1 u#
+b1 t#
+b1 s#
+b1 r#
+b1 q#
+b1 p#
+b1 o#
+b1 n#
+b1 m#
+b1 l#
+b1 k#
+b1 j#
+b1 i#
+b1 h#
+b1 g#
+b1 f#
+b1 e#
+b1 d#
+b1 c#
+b1 b#
+b1 a#
+b1 `#
+b1 _#
+b1 ^#
+b1 ]#
+b1 \#
+b1 [#
+b1 Z#
+b1 Y#
+b1 X#
+b1 W#
+b1 V#
+b1 U#
+b1 T#
+b1 S#
+b1 R#
+b1 Q#
+b1 P#
+b1 O#
+b1 N#
+b1 M#
+b1 L#
+b1 K#
+b1 J#
+b1 I#
+b1 H#
+b1 G#
+b1 F#
+b1 E#
+b1 D#
+b1 C#
+b1 B#
+b1 A#
+b1 @#
+b1 ?#
+b1 >#
+b1 =#
+b1 <#
+b1 ;#
+b1 :#
+b1 9#
+b1 8#
+b1 7#
+b1 6#
+b1 5#
+b1 4#
+b1 3#
+b1 2#
+b1 1#
+b1 0#
+b1 /#
+b1 .#
+b1 -#
+b1 ,#
+b1 +#
+b1 *#
+b1 )#
+b1 (#
+b1 '#
+b1 &#
+b1 %#
+b1 $#
+b1 ##
+b1 "#
+b1 !#
+b1 ~"
+b1 }"
+b1 |"
+b1 {"
+b1 z"
+b1 y"
+b1 x"
+b1 w"
+b1 v"
+b1 u"
+b1 t"
+b1 s"
+b1 r"
+b1 q"
+b1 p"
+b1 o"
+b1 n"
+b1 m"
+b1 l"
+b1 k"
+b1 j"
+b1 i"
+b1 h"
+b1 g"
+b1 f"
+b1 e"
+b1 d"
+b1 c"
+b1 b"
+b1 a"
+b1 `"
+b1 _"
+b1 ^"
+b1 ]"
+b1 \"
+b1 ["
+b1 Z"
+b1 Y"
+b1 X"
+b1 W"
+b1 V"
+b1 U"
+b1 T"
+b1 S"
+b1 R"
+b1 Q"
+b1 P"
+b1 O"
+b1 N"
+b1 M"
+b1 L"
+b1 K"
+b1 J"
+b1 I"
+b1 H"
+b1 G"
+b1 F"
+b1 E"
+b1 D"
+b1 C"
+b1 B"
+b1 A"
+b1 @"
+b1 ?"
+b1 >"
+b1 ="
+b1 <"
+b1 ;"
+b1 :"
+b1 9"
+b1 8"
+b1 7"
+b1 6"
+b1 5"
+b1 4"
+b1 3"
+b1 2"
+b1 1"
+b1 0"
+b1 /"
+b1 ."
+b1 -"
+b1 ,"
+b1 +"
+b1 *"
+b1 )"
+b1 ("
+b1 '"
+b1 &"
+b1 %"
+b1 $"
+b1 #"
+b1 ""
+b1 !"
+b1 ~
+b1 }
+b1 |
+b1 {
+b1 z
+b1 y
+b1 x
+b1 w
+b1 v
+b1 u
+b1 t
+b1 s
+b1 r
+b1 q
+b1 p
+b1 o
+b1 n
+b1 m
+b1 l
+b1 k
+b1 j
+b1 i
+b1 h
+b1 g
+b1 f
+b1 e
+b1 d
+b1 c
+b1 b
+b1 a
+b1 `
+b1 _
+b1 ^
+b1 ]
+b1 \
+b1 [
+b1 Z
+b1 Y
+b1 X
+b1 W
+b1 V
+b1 U
+b1 T
+b0 S
+b0 R
+b0 Q
+b0 P
+b0 O
+b0 N
+b0 M
+b0 L
+b0 K
+b0 J
+b0 I
+b0 H
+b0 G
+b0 F
+b0 E
+b0 D
+b0 B
+b0 A
+b0 @
+b0 ?
+b0 >
+b0 =
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+12
+b0 1
+0/
+b0 .
+b0 -
+b0 ,
+b0 +
+0*
+0)
+b0 (
+0'
+0&
+b0 %
+0$
+0#
+b0 "
+0!
+$end
+#10
+1'
+#20
+b10010010100100101001001010010010100100101001001010010010100100101001001010010010100100101001001010010010100100101001001010010010 "
+b10010010100100101001001010010010100100101001001010010010100100101001001010010010100100101001001010010010100100101001001010010010 -
+b10010010100100101001001010010010100100101001001010010010100100101001001010010010100100101001001010010010100100101001001010010010 M$
+02
+1*
+1!
+1K$
+b10010010 K
+b10010010 A$
+b10010010 J
+b10010010 @$
+b10010010 I
+b10010010 ?$
+b10010010 H
+b10010010 >$
+b10010010 G
+b10010010 =$
+b10010010 F
+b10010010 <$
+b10010010 S
+b10010010 I$
+b10010010 R
+b10010010 H$
+b10010010 Q
+b10010010 G$
+b10010010 P
+b10010010 F$
+b10010010 O
+b10010010 E$
+b10010010 N
+b10010010 D$
+b10010010 M
+b10010010 C$
+b10010010 L
+b10010010 B$
+b10010010 E
+b10010010 ;$
+b10010010100100101001001010010010100100101001001010010010100100101001001010010010100100101001001010010010100100101001001010010010 ,
+b10010010100100101001001010010010100100101001001010010010100100101001001010010010100100101001001010010010100100101001001010010010 J$
+b10010010 D
+b10010010 :$
+b10 :
+b100 9
+b110 8
+b1000 7
+b1010 6
+b1100 5
+b1110 B
+b10000 A
+b10010 @
+b10100 ?
+b1111 >
+b1010 =
+b101 <
+b11 ;
+b10 4
+b1 3
+b10000001000000011000001000000010100000110000001110000100000001001000010100000011110000101000000101000000110000001000000001 +
+b10000001000000011000001000000010100000110000001110000100000001001000010100000011110000101000000101000000110000001000000001 1
+1#
+1)
+1/
+1&
+b10000001000000011000001000000010100000110000001110000100000001001000010100000011110000101000000101000000110000001000000001 %
+b10000001000000011000001000000010100000110000001110000100000001001000010100000011110000101000000101000000110000001000000001 (
+b10000001000000011000001000000010100000110000001110000100000001001000010100000011110000101000000101000000110000001000000001 .
+#30
+0N$
+1$
+#40
+0#
+0)
+0/
+1N$
+0$
+0&
+#60
