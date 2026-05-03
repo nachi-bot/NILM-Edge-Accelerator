@@ -1,0 +1,13 @@
+# Simulation binaries
+*.vvp
+*.vcd
+
+# Vivado temp files
+.Xil/
+*.jou
+*.log
+*.str
+
+# OS junk
+Thumbs.db
+.DS_Store
